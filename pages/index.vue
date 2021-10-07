@@ -9,13 +9,10 @@
 			</div>
 		</div>
 
+		<br><br><hr><br><br>
+
 		<div v-for="post in posts" :key="post.id">
-			<!-- <pre>{{ product.categories}}</pre> -->
-			<h1><strong>Post Title:</strong> {{ post.title }}</h1>
-			<div>
-				<p><strong>Post URL:</strong> {{ post.video['title'] }}</p>
-			</div>
-			
+			<pre>{{ post.video}}</pre><p>{{ post.video}}</p>
 		</div>
 		
 	</div>
